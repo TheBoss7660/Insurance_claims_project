@@ -20,4 +20,4 @@ CREATE TABLE insurance_claims (
 )
 
 
-# psql -U postgres -d insurance_db -f sql/schema/create_clean_table.sql
+psql -U postgres -d insurance_db -f sql/schema/create_clean_table.sql
